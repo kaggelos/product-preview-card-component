@@ -16,7 +16,7 @@
 .product-preview-card .content {
     display: flex;
     flex-direction: column;
-    padding: 4%;
+    margin: 3% 4%;
 }
 
 .product-preview-card .type {
@@ -25,11 +25,10 @@
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 16px;
-    margin: 0 4px;
+    margin: 1% 0;
 }
 
 .product-preview-card .title {
-    margin-top: 5%;
     color: hsl(212, 21%, 14%);
     font-family: Fraunces;
     font-size: 36px;
@@ -45,8 +44,10 @@
 
 .product-preview-card .price {
     display: flex;
+    box-sizing: border-box;
     align-items: center;
-    margin: 7% 0;
+    margin: 5% 0;
+    max-height: 40px;
 }
 
 
@@ -86,7 +87,7 @@
     margin: 0 4%;
 }
 
-@media screen and (min-width: 734px) {
+@media screen and (min-width: 765px) {
     .product-preview-card {
         flex-direction: row;
     }
