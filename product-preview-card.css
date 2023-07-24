@@ -1,0 +1,100 @@
+.product-preview-card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.product-preview-card .header-image {
+    content: url("./images/image-product-mobile.jpg");
+    width: 100%;
+    max-height: 460px;
+
+}
+
+.product-preview-card .content {
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+}
+
+.product-preview-card .type {
+    color: hsl(228, 12%, 48%);
+    font-family: Montserrat;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 16px;
+    margin: 0 4px;
+}
+
+.product-preview-card .title {
+    margin-top: 5%;
+    color: hsl(212, 21%, 14%);
+    font-family: Fraunces;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.product-preview-card .description {
+    color: hsl(228, 12%, 48%);
+    font-family: Montserrat;
+    line-height: 36px;
+    font-size: 18px;
+}
+
+.product-preview-card .price {
+    display: flex;
+    align-items: center;
+    margin: 7% 0;
+}
+
+
+.product-preview-card .price .discount {
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: 36px;
+    color: hsl(158, 36%, 37%)
+}
+
+.product-preview-card .price .true {
+    font-family: Montserrat;
+    font-size: 18px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    margin-left: 6%;
+}
+
+.product-preview-card .checkout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 5%;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 16px;
+}
+
+.product-preview-card .cart-icon {
+    content: url("./icons/icon-cart.svg");
+    width: 25px;
+    margin: 0 4%;
+}
+
+@media screen and (min-width: 734px) {
+    .product-preview-card {
+        flex-direction: row;
+    }
+
+    .product-preview-card .header-image {
+        content: url(./images/image-product-desktop.jpg);
+        width: auto;
+        height: 100%;
+        max-height: none;
+    }
+}
