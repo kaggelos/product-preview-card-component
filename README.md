@@ -12,7 +12,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-### Screenshot
+### Screenshots
 
 ![](./screenshots/desktop.jpg)
 ![](./screenshots/mobile.jpg)
